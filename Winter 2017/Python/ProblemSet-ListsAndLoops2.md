@@ -23,15 +23,15 @@ You can use Python lists to produce __matrices__ by using a list to contain othe
 
 ```python
 myMatrix = [[1,2,3],[4,5,6],[7,8,9]]
+
+# This produces a matrix
+# 1 2 3
+# 4 5 6
+# 7 8 9
 ```
+That structure can be accessed by using the __square bracket notation__ twice: `myMatrix[0][0]` would access the first element of the first row, for example. Before playing with 2D lists further, make sure that you can use this notation properly to access all the elements of your matrix.
 
-In this case, we obtain the matrix:
+Using this, build a set of functions that implement __matrix addition__, __matrix scalar product__ and __matrix multiplication__. You should then confirm the correctness of your solution using 3x3 matrices (that way, you can confirm the results on paper). If you aren't certain of how those operations work, you should read up on [matrix addition](https://en.wikipedia.org/wiki/Matrix_addition), [scalar and matrix multiplcation](http://www.purplemath.com/modules/mtrxmult.htm).
 
-1 2 3
-
-4 5 6
-
-7 8 9
-
-Using this, build a set of functions that implement __matrix addition__, __matrix scalar product__ and __matrix cross product__. You should then confirm the correctness of your solution using 3x3 matrices (that way, you can confirm the results on paper). If you aren't certain of how those operations work, you should read up on [matrix addition](https://en.wikipedia.org/wiki/Matrix_addition), [matrix scalar product]() and [matrix cross product]().
+__ Problem 3__
 
