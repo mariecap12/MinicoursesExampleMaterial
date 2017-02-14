@@ -35,5 +35,5 @@ Using this, build a set of functions that implement __matrix addition__, __matri
 
 __Problem 3__
 
-
+Build a script that will find the __intersection__ of two lists (the elements that are common to both lists). Add in a function that will process the given lists to produce their __difference__. 
 
