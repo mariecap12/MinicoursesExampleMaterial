@@ -33,5 +33,7 @@ That structure can be accessed by using the __square bracket notation__ twice: `
 
 Using this, build a set of functions that implement __matrix addition__, __matrix scalar product__ and __matrix multiplication__. You should then confirm the correctness of your solution using 3x3 matrices (that way, you can confirm the results on paper). If you aren't certain of how those operations work, you should read up on [matrix addition](https://en.wikipedia.org/wiki/Matrix_addition), [scalar and matrix multiplcation](http://www.purplemath.com/modules/mtrxmult.htm).
 
-__ Problem 3__
+__Problem 3__
+
+
 
