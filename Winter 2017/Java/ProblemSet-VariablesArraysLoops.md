@@ -51,7 +51,98 @@ public class taxCalculations {
 }
 ```
 
-### B - Creating and manipulating arrays
+
+### B - Loops
+
+#### Code analysis questions
+
+__Problem 1__
+
+Can you explain _in plain English_ the structure of the loop below? Make sure that you can describe the first line, where the loop start, end and step are defined.
+
+```java
+for(int i = 0 ; i < 10 ; i = i + 1) {
+  System.out.println(i);
+}
+```
+
+__Problem 2__
+
+If you run the following snippet of code, you will notice that while it compiles, the program stalls during execution. Can you find and fix the issue?
+
+```java
+int j = 0;
+int i = 0;
+
+while(j < 10) {
+
+  for(i = 0 ; i < 10 ; i = i + 1) {
+    System.out.println(j+i);
+    j = j - 1;
+  }
+  
+  j = j + 1;
+}
+```
+
+__Problem 3__
+
+Is the loop below functional? If so, can you explain how it works?
+
+```java
+int i = 0;
+
+for(;;) {
+
+  if(i >= 10) {
+    break;
+  }
+
+  System.out.println(i);
+  
+  i = i + 1;
+  
+}
+```
+
+__Problem 4__
+
+We know that we can transform any __for loop__ into a __while loop__ and vice versa. Can you 'translate' the loops below?
+
+```java
+int i = -10;
+
+while(i < 0) {
+  char letter = 'A' + i;
+
+  System.out.println(letter);
+
+  i = i + 1;
+}
+
+```
+
+```java
+int counter = 0;
+
+for(int i = 2 ; i <= 100 ; i = i * i) {
+  counter = counter + 1;
+}
+
+System.out.println("There are " + counter + " powers of 2 lesser or equal to 100!");
+```
+
+#### Programming questions
+
+__Problem 1__
+
+Write a short program that will compute the sum of all __even__ numbers under a certain integer, which you can define in a variable.
+
+__Problem 2__
+
+Starting from problem 1, can you also calculate the sum of all __odd__ numbers, and find out the difference between the two sums?
+
+### C - Creating and manipulating arrays
 
 #### Short questions
 
