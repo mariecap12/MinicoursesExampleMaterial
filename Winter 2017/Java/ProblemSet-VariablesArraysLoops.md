@@ -172,6 +172,8 @@ What is the content of each array after the following statements are executed?
 
 #### Programming questions
 
+__Problem 1__
+
 Starting from the code snippet below, build a program that will convert the temperatures given in the `celsius` array into Kelvin and Fahrenheit degrees. Make sure to store your results in arrays as well. The position of an element in the `celsius` array should match the position of its equivalents in the other arrays.
 
 ```java
@@ -183,3 +185,21 @@ public class myTemperatureArrays {
   }
 }
 ```
+
+__Problem 2__
+
+Given a sentence of variable length defined as a `String`, how would you calculate the _frequency_ at which each character appears? You should print a report composed of 26 lines, each line being of the format `letter: frequency`.
+
+```java
+public class frequencyOfLetters {
+  public static void main(String[] args) {
+    String mySentence = "This is a fairly long sentence that doesn't say much, but contains a variety of letters.";
+    
+    //Start here!
+  }
+}
+```
+
+_Hint: An array may be handy to organize your frequencies!_ 
+
+
