@@ -1,6 +1,6 @@
 # SSMU MiniCourses - Introduction to Java
 
-## Variables, arrays and loops I
+## Variables, arrays and loops
 
 ### A - Creating and manipulating variables
 
